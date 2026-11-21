@@ -44,6 +44,8 @@ nav a:hover {color:var(--gold)}
 .btn {display:inline-block;padding:12px 22px;border-radius:3px;background:var(--gold);color:#111;font-weight:bold;border:1px solid var(--gold);transition:.2s}
 .btn:hover {background:transparent;color:var(--gold)}
 .btn-outline {background:transparent;color:var(--gold)}
+.whatsapp-btn {background:#20c767;border-color:#20c767;color:white}
+.whatsapp-btn:hover {background:transparent;color:#20c767}
 .about-grid {display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
 .about-photo {
  min-height:390px;border-radius:8px;border:1px solid #6b542e;
@@ -79,6 +81,7 @@ nav a:hover {color:var(--gold)}
 .contact-box {background:#202020;border:1px solid #493b27;padding:27px;border-radius:7px}
 .contact-box h3 {color:var(--gold);margin-bottom:15px}
 .contact-box p {color:#ddd;margin:10px 0}
+.contact-buttons {display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
 footer {text-align:center;padding:27px 12px;background:#090909;color:var(--muted);font-size:13px}
 footer strong {color:var(--gold)}
 .whatsapp-float {position:fixed;bottom:20px;right:18px;z-index:20;background:#20c767;color:white;border-radius:30px;padding:13px 18px;font-weight:bold;box-shadow:0 4px 18px #0008}
@@ -123,7 +126,8 @@ footer strong {color:var(--gold)}
   <p>Expert tailoring for your everyday style and special occasions.
   আপনার পছন্দ ও মাপ অনুযায়ী যত্নসহকারে পোশাক তৈরি করা হয়।</p>
   <div class="hero-buttons">
-   <a class="btn" href="https://wa.me/919733631770?text=Hello%20Narayan%20Tailors">Enquire on WhatsApp / WhatsApp-এ যোগাযোগ</a>
+   <a class="btn whatsapp-btn" href="https://wa.me/919733631770?text=Hello%20Narayan%20Tailors" target="_blank">WhatsApp 1 / যোগাযোগ ১</a>
+   <a class="btn whatsapp-btn" href="https://wa.me/917363083578?text=Hello%20Narayan%20Tailors" target="_blank">WhatsApp 2 / যোগাযোগ ২</a>
    <a class="btn btn-outline" href="#services">Our Services / পরিষেবা</a>
   </div>
  </div>
@@ -170,7 +174,7 @@ footer strong {color:var(--gold)}
   <div class="catalogue-grid">
 
    <div class="product">
-    <img src="images/shirt-piece.jpg" alt="Shirt Fabric Piece / শার্টের কাপড়">
+    <img src="https://www.jiomart.com/images/product/original/rvqccg8f5j/bigreams-unstitched-100-cotton-light-blue-chambray-casual-summer-shirt-solid-fabric-for-men-s-1-5-meter-fabric-for-long-sleeve-shirt-product-images-rvqccg8f5j-4-202308101418.jpg?im=Resize%3D%28500%2C630%29" alt="Shirt Fabric / শার্টের কাপড়">
     <div class="product-info">
      <h3>Shirt Stitching / শার্ট তৈরি</h3>
      <p>Custom shirt stitching with a smart and comfortable fit.</p>
@@ -180,7 +184,7 @@ footer strong {color:var(--gold)}
    </div>
 
    <div class="product">
-    <img src="images/pant-piece.jpg" alt="Pant Fabric Piece / প্যান্টের কাপড়">
+    <img src="https://www.jiomart.com/images/product/original/rvrygafqfe/kundan-sulz-gwalior-blue-cotton-blend-checkered-men-single-trouser-fabric-product-images-rvrygafqfe-1-202301140157.jpg?im=Resize%3D%28500%2C630%29" alt="Pant Fabric / প্যান্টের কাপড়">
     <div class="product-info">
      <h3>Pant Stitching / প্যান্ট তৈরি</h3>
      <p>Modern trousers tailored to your measurements and preferred style.</p>
@@ -190,7 +194,7 @@ footer strong {color:var(--gold)}
    </div>
 
    <div class="product">
-    <img src="images/blouse-piece.jpg" alt="Blouse Fabric Piece / ব্লাউজের কাপড়">
+    <img src="https://img500.exportersindia.com/product_images/bc-500/2024/3/13135978/embroidered-cotton-pink-blouse-fabric-1711101383-7351080.jpeg" alt="Blouse Fabric / ব্লাউজের কাপড়">
     <div class="product-info">
      <h3>Blouse Stitching / ব্লাউজ তৈরি</h3>
      <p>Blouse stitching according to your measurements and design.</p>
@@ -272,7 +276,7 @@ footer strong {color:var(--gold)}
    </div>
 
    <div class="gallery-item">
-    <img src="https://primary.jwwb.nl/public/m/x/s/temp-qmvreuozxhfopkmeufes/j11oev/naaien-min.jpg?enable=upscale&enable-io=true&fit=bounds&width=1200" alt="Male tailor repairing a garment">
+    <img src="https://primary.jwwb.nl/public/m/x/s/temp-qmvreuozxhfopkmeufes/j11oev/naaien-min.jpg?enable=upscale&enable-io=true&fit=bounds&width=1200" alt="Tailor repairing a garment">
     <h3>Repairing & Alteration / মেরামত ও মাপ পরিবর্তন</h3>
     <p>Careful garment repair and alteration work.</p>
    </div>
@@ -291,16 +295,20 @@ footer strong {color:var(--gold)}
    <div class="contact-box">
     <h3>Shop Information / দোকানের তথ্য</h3>
     <p><strong>Address / ঠিকানা:</strong><br>Namkhana High School Road, Namkhana, West Bengal, India</p>
-    <p><strong>WhatsApp / যোগাযোগ:</strong><br>+91 97336 31770</p>
+    <p><strong>WhatsApp 1:</strong><br>+91 97336 31770</p>
+    <p><strong>WhatsApp 2:</strong><br>+91 73630 83578</p>
     <p><strong>Opening Hours / খোলার সময়:</strong><br>Monday – Sunday / সোমবার – রবিবার<br>8:30 AM – 10:00 PM</p>
    </div>
+
    <div class="contact-box">
     <h3>Contact Us / যোগাযোগ করুন</h3>
     <p>For stitching, repairing, alteration and ironing enquiries, message us.</p>
     <p>সেলাই, মেরামত, মাপ পরিবর্তন ও ইস্ত্রি পরিষেবা সম্পর্কে জানতে WhatsApp করুন।</p>
+    <div class="contact-buttons">
+     <a class="btn whatsapp-btn" href="https://wa.me/919733631770?text=Hello%20Narayan%20Tailors%2C%20I%20want%20to%20know%20more" target="_blank">WhatsApp 1 / যোগাযোগ ১</a>
+     <a class="btn whatsapp-btn" href="https://wa.me/917363083578?text=Hello%20Narayan%20Tailors%2C%20I%20want%20to%20know%20more" target="_blank">WhatsApp 2 / যোগাযোগ ২</a>
+    </div>
     <br>
-    <a class="btn" href="https://wa.me/919733631770?text=Hello%20Narayan%20Tailors%2C%20I%20want%20to%20know%20more" target="_blank">Message on WhatsApp / WhatsApp করুন</a>
-    <br><br>
     <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Namkhana+High+School+Road+Namkhana+West+Bengal" target="_blank">Find Our Location / ঠিকানা দেখুন</a>
    </div>
   </div>
@@ -313,6 +321,7 @@ footer strong {color:var(--gold)}
  <p>© 2026 <strong>Narayan Tailors</strong> | Namkhana, West Bengal</p>
  <p>Quality Stitching • Perfect Fit • Customer Satisfaction</p>
  <p>উন্নত সেলাই • নিখুঁত মাপ • গ্রাহক সন্তুষ্টি</p>
+ <p>WhatsApp: +91 97336 31770 / +91 73630 83578</p>
 </footer>
 
 <a class="whatsapp-float" href="https://wa.me/919733631770?text=Hello%20Narayan%20Tailors" target="_blank">WhatsApp Us</a>
